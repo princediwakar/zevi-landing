@@ -2,27 +2,27 @@
 
 const FOOTER_LINKS = {
   PRODUCT: [
-    { label: "Features", href: "#features" },
-    { label: "How It Works", href: "#how-it-works" },
-    { label: "Pricing", href: "#pricing" },
-    { label: "Changelog", href: "#" },
+    { label: "Features", href: "/#features" },
+    { label: "How It Works", href: "/#how-it-works" },
+    { label: "Pricing", href: "/#pricing" },
+    { label: "Changelog", href: "/changelog" },
   ],
   FRAMEWORKS: [
-    { label: "AARRR", href: "#" },
-    { label: "Jobs-to-be-Done", href: "#" },
-    { label: "CIRCLES", href: "#" },
-    { label: "Root Cause Analysis", href: "#" },
+    { label: "AARRR", href: "/frameworks/aarrr" },
+    { label: "Jobs-to-be-Done", href: "/frameworks/jobs-to-be-done" },
+    { label: "CIRCLES", href: "/frameworks/circles" },
+    { label: "Root Cause Analysis", href: "/frameworks/root-cause-analysis" },
   ],
   COMPANY: [
-    { label: "About", href: "#" },
-    { label: "Blog", href: "#" },
-    { label: "Careers", href: "#" },
-    { label: "Press", href: "#" },
+    { label: "About", href: "/about" },
+    { label: "Blog", href: "/blog" },
+    { label: "Careers", href: "/careers" },
+    { label: "Press", href: "/press" },
   ],
   LEGAL: [
-    { label: "Privacy Policy", href: "#" },
-    { label: "Terms of Service", href: "#" },
-    { label: "Cookie Policy", href: "#" },
+    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Terms of Service", href: "/terms" },
+    { label: "Cookie Policy", href: "/cookies" },
   ],
 };
 
@@ -78,7 +78,7 @@ export default function Footer() {
             }}
           >
             <a
-              href="#"
+              href="/#pricing"
               style={{
                 fontFamily: "var(--font-ibm-mono)",
                 fontSize: "11px",

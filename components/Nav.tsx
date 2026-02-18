@@ -13,9 +13,9 @@ export default function Nav() {
   }, []);
 
   const navLinks = [
-    { label: "FEATURES", href: "#features" },
-    { label: "HOW IT WORKS", href: "#how-it-works" },
-    { label: "PRICING", href: "#pricing" },
+    { label: "FEATURES", href: "/#features" },
+    { label: "HOW IT WORKS", href: "/#how-it-works" },
+    { label: "PRICING", href: "/#pricing" },
   ];
 
   return (
@@ -44,7 +44,7 @@ export default function Nav() {
       >
         {/* Logo */}
         <a
-          href="#"
+          href="/"
           style={{
             fontFamily: "var(--font-barlow)",
             fontWeight: 900,
@@ -103,7 +103,7 @@ export default function Nav() {
 
         {/* CTA Button */}
         <a
-          href="#pricing"
+          href="/#pricing"
           style={{
             fontFamily: "var(--font-ibm-mono)",
             fontSize: "10px",
@@ -193,7 +193,7 @@ export default function Nav() {
             </a>
           ))}
           <a
-            href="#pricing"
+            href="/#pricing"
             onClick={() => setMenuOpen(false)}
             style={{
               fontFamily: "var(--font-ibm-mono)",
