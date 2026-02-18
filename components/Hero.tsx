@@ -50,10 +50,10 @@ export default function Hero() {
           padding: "60px 40px 0",
           width: "100%",
           display: "grid",
-          gridTemplateColumns: "1fr",
+          gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
           gap: "40px",
+          alignItems: "end",
         }}
-        className="lg:grid-cols-[1.6fr_1fr]"
       >
         {/* Left — Typography */}
         <div style={{ display: "flex", flexDirection: "column", gap: "28px" }}>
@@ -227,7 +227,6 @@ export default function Hero() {
             alignItems: "flex-end",
             justifyContent: "center",
             paddingBottom: "0",
-            paddingTop: "40px",
           }}
         >
           <AppPreview />
@@ -296,14 +295,12 @@ function AppPreview() {
   return (
     <div
       style={{
-        width: "100%",
-        maxWidth: "320px",
+        width: "320px",
         border: "2px solid #000",
         background: "#fff",
         fontFamily: "var(--font-ibm-mono)",
         position: "relative",
         boxShadow: "8px 8px 0 #000",
-        margin: "0 auto",
       }}
     >
       {/* Header */}
@@ -389,7 +386,7 @@ function AppPreview() {
             fontWeight: 500,
           }}
         >
-          Spotify&apos;s 7-day retention dropped 8% after a UI change.
+          Spotify's 7-day retention dropped 8% after a UI change.
           How would you diagnose this?
         </p>
       </div>
