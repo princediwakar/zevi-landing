@@ -50,9 +50,9 @@ export default function Hero() {
           padding: "60px 40px 0",
           width: "100%",
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-          gap: "40px",
-          alignItems: "end",
+        gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+        gap: "40px",
+        alignItems: "center",
         }}
       >
         {/* Left — Typography */}
