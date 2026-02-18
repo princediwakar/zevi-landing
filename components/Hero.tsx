@@ -227,8 +227,8 @@ export default function Hero() {
             alignItems: "flex-end",
             justifyContent: "center",
             paddingBottom: "0",
+            paddingTop: "40px",
           }}
-          className="hidden lg:flex"
         >
           <AppPreview />
         </div>
@@ -296,12 +296,14 @@ function AppPreview() {
   return (
     <div
       style={{
-        width: "320px",
+        width: "100%",
+        maxWidth: "320px",
         border: "2px solid #000",
         background: "#fff",
         fontFamily: "var(--font-ibm-mono)",
         position: "relative",
         boxShadow: "8px 8px 0 #000",
+        margin: "0 auto",
       }}
     >
       {/* Header */}
